@@ -13,6 +13,11 @@ Scans MAC Addresses using arp-scan and sends message to mqtt broker to determine
 * paho-mqtt
 * arp-scan
 
+### Get The Script
+
+<pre>~# cd /home/pi</pre>
+<pre>~# wget https://raw.githubusercontent.com/NightRang3r/Arp-Presence-Detection-MQTT/master/presence.py</pre>
+
 ### Install paho-mqtt
 <pre>~# sudo pip install paho-mqtt</pre>
 
