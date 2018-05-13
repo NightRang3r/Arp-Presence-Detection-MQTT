@@ -48,7 +48,7 @@ try:
     while True:
         global output
         output = subprocess.check_output("sudo arp-scan -l", shell=True)
-        sleep(10)
+        sleep(T_SLEEP)
 
 except KeyboardInterrupt:
     stop = True
