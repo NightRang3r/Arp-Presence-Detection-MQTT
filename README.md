@@ -23,7 +23,7 @@ Scans MAC Addresses using arp-scan and sends message to mqtt broker to determine
 
 ### Create service
 
-<pre>~# scd /etc/systemd/system/</pre>
+<pre>~# cd /etc/systemd/system/</pre>
 
 <pre>~# sudo nano presence.service</pre>
 
