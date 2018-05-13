@@ -7,11 +7,6 @@ This script is a based on [https://github.com/initialstate/pi-sensor-free-presen
 Scans MAC Addresses using arp-scan and sends message to mqtt broker to determine occupancy.
 
 
-
-### Installation
-
-
-
 ### Requirements
 
 * Python 2.7
