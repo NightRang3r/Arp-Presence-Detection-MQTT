@@ -14,9 +14,9 @@ Scans MAC Addresses using arp-scan and sends message to mqtt broker to determine
 
 ### Requirements
 
-Python 2.7
-paho-mqtt
-arp-scan
+* Python 2.7
+* paho-mqtt
+* arp-scan
 
 ### Install paho-mqtt
 <pre>~# sudo pip install paho-mqtt</pre>
