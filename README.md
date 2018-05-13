@@ -18,6 +18,20 @@ Scans MAC Addresses using arp-scan and sends message to mqtt broker to determine
 <pre>~# cd /home/pi</pre>
 <pre>~# wget https://raw.githubusercontent.com/NightRang3r/Arp-Presence-Detection-MQTT/master/presence.py</pre>
 
+You will need to adjust the script with your own parameters in the settings section:
+
+<pre>
+MQTT_HOST = "127.0.0.1" - Your MQTT Broker IP Address
+MQQT_USER = "mosquitto" - MQTT Broker uSER nAME
+MQTT_PASS = "12345678" - MQTT Broker Password
+MQTT_TOPIC = "presence" - MQTT Broker Topic
+T_SLEEP = 10 - Scan Interval
+
+occupant = ["Bob","Alice"] - Occupants list
+address = ["01:01:01:01:01:01","02:02:02:02:02:02"] - MAC Address of each occupant
+</pre>
+
+
 ### Install paho-mqtt
 <pre>~# sudo pip install paho-mqtt</pre>
 
@@ -63,18 +77,6 @@ WantedBy=multi-user.target
 
 ### Home assistant configuration example
 
-You will need to adjust the script with your own parameters in the settings section:
-
-<pre>
-MQTT_HOST = "127.0.0.1" - Your MQTT Broker IP Address
-MQQT_USER = "mosquitto" - MQTT Broker uSER nAME
-MQTT_PASS = "12345678" - MQTT Broker Password
-MQTT_TOPIC = "presence" - MQTT Broker Topic
-T_SLEEP = 10 - Scan Interval
-
-occupant = ["Bob","Alice"] - Occupants list
-address = ["01:01:01:01:01:01","02:02:02:02:02:02"] - MAC Address of each occupant
-</pre>
 
 **device_tracker.yaml:**
 
