@@ -22,7 +22,7 @@ You will need to adjust the script with your own parameters in the settings sect
 
 <pre>
 MQTT_HOST = "127.0.0.1" - Your MQTT Broker IP Address
-MQQT_USER = "mosquitto" - MQTT Broker uSER nAME
+MQQT_USER = "mosquitto" - MQTT Broker User Name
 MQTT_PASS = "12345678" - MQTT Broker Password
 MQTT_TOPIC = "presence" - MQTT Broker Topic
 T_SLEEP = 10 - Scan Interval
