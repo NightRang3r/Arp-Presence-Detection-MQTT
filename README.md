@@ -25,7 +25,11 @@ Scans MAC Addresses using arp-scan and sends message to mqtt broker to determine
 
 <pre>~# cd /etc/systemd/system/</pre>
 
+Create a new file
+
 <pre>~# sudo nano presence.service</pre>
+
+Paste this into the new file and save:
 
 <pre>
 [Unit]
