@@ -32,7 +32,7 @@ try:
             else:
                 print(NAMES[i] + " is not_home")
                 publish.single(MQTT_TOPIC + "/" + NAMES[i],"not_home",hostname=MQTT_HOST, auth=auth)
-            sleep(T_SLEEP)
+        sleep(T_SLEEP)
 
 except:
     print "Something went wrong..."
