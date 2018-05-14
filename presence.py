@@ -9,7 +9,7 @@ MQTT_HOST = "127.0.0.1"
 MQQT_USER = "mosquitto"
 MQTT_PASS = "12345678"
 MQTT_TOPIC = "presence"
-T_SLEEP = 5
+T_SLEEP = 30
 
 
 NAMES = ["Bob","Alice"]
