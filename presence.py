@@ -36,5 +36,5 @@ try:
 
 except:
     print "Something went wrong..."
-    pass
+    
 
