@@ -27,8 +27,8 @@ MQTT_PASS = "12345678" - MQTT Broker Password
 MQTT_TOPIC = "presence" - MQTT Broker Topic
 T_SLEEP = 10 - Scan Interval
 
-occupant = ["Bob","Alice"] - Occupants list
-address = ["01:01:01:01:01:01","02:02:02:02:02:02"] - MAC Address of each occupant
+NAMES = ["Bob","Alice"] - Occupants list
+MAC_ADDR = ["01:01:01:01:01:01","02:02:02:02:02:02"] - MAC Address of each occupant
 </pre>
 
 
