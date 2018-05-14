@@ -11,7 +11,7 @@ MQTT_PASS = "12345678"
 MQTT_TOPIC = "presence"
 T_SLEEP = 30
 
-
+INTERFACE = "eth0"
 NAMES = ["Bob","Alice"]
 MAC_ADDR = ["01:01:01:01:01:01","02:02:02:02:02:02"]
 
@@ -24,7 +24,7 @@ auth = {
        
 try:
     while True:
-        output = subprocess.check_output("sudo arp-scan -l", shell=True)
+        output = subprocess.check_output("sudo arp-scan --interface=" + INTERFACE + " --localnet", shell=True)
         for i in range(len(NAMES)):
             if MAC_ADDR[i] in output:
                 print(NAMES[i] + " is home")
