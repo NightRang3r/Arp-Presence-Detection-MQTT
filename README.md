@@ -25,8 +25,9 @@ MQTT_HOST = "127.0.0.1" - Your MQTT Broker IP Address
 MQQT_USER = "mosquitto" - MQTT Broker User Name
 MQTT_PASS = "12345678" - MQTT Broker Password
 MQTT_TOPIC = "presence" - MQTT Broker Topic
-T_SLEEP = 10 - Scan Interval
+T_SLEEP = 30 - Scan Interval
 
+INTERFACE = "eth0" - Network Interface
 NAMES = ["Bob","Alice"] - Occupants list
 MAC_ADDR = ["01:01:01:01:01:01","02:02:02:02:02:02"] - MAC Address of each occupant
 </pre>
