@@ -6,6 +6,7 @@ Requirements:
  python 2.7
  pip install scapy
 
+ sudo setcap cap_net_raw=eip /usr/bin/python2.7
  
 '''
 
