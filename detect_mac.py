@@ -8,14 +8,15 @@ Requirements:
  
 '''
 
-import string, sys
+import string, sys, time
 from scapy.all import *
 
 
 conf.verb = 0
 
 IP_RANGE = "10.0.0.1/24"
-MAC_ADDR = ["00:00:00:00:00:00","00:01:01:01:01:01"]
+MAC_ADDR = ["00:00:00:00:00:00","01:01:01:01:01:01"]
+T_SLEEP = 30
 
 def arpping(host):
 	try:
@@ -28,7 +29,10 @@ def arpping(host):
 		print e
 
 def main():
-	arpping(IP_RANGE)
+	while True:
+		arpping(IP_RANGE)
+		time.sleep(T_SLEEP)
+
 
 if __name__ == '__main__':
 	main()
