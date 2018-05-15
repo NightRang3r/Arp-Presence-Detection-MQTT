@@ -5,7 +5,7 @@ Requirements:
 
  python 2.7
  pip install scapy
- pip install json
+
  
 '''
 
