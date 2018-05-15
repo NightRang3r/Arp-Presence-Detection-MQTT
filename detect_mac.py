@@ -23,7 +23,7 @@ def arpping(host):
 		for s,r in ans:
 		#	print r.src
 			if r.src not in MAC_ADDR:
-				print "Unknown MAC Address Detected: " + r.src 
+				print "Unknown MAC Address Detected: " + r.src + " IP Address: " + r.psrc
 	except Exception, e:
 		print e
 
