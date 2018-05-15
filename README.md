@@ -26,10 +26,9 @@ MQQT_USER = "mosquitto" - MQTT Broker User Name
 MQTT_PASS = "12345678" - MQTT Broker Password
 MQTT_TOPIC = "presence" - MQTT Broker Topic
 T_SLEEP = 30 - Scan Interval
-
 INTERFACE = "eth0" - Network Interface
-NAMES = ["Bob","Alice"] - Occupants list
-MAC_ADDR = ["01:01:01:01:01:01","02:02:02:02:02:02"] - MAC Address of each occupant
+DEVICES= {"Bob": "00:00:00:00:00:00", "Alice":"01:01:01:01:01:01"} - List of devices, you can add more devices.
+
 </pre>
 
 
