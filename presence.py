@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import subprocess
 from time import sleep
 import paho.mqtt.publish as publish
