@@ -12,7 +12,7 @@ sudo setcap cap_net_raw=eip /usr/bin/python2.7
 
  This script will scan your network for unauzhorized connected devices 
 
- First you will need tpo create a a whitelist of trusted devices in a file named: macs.json in the same folder as this script
+ First you will need to create a a whitelist of trusted devices in a file named: macs.json in the same folder as this script
 
  Example:
 
