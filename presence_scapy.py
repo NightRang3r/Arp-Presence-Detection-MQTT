@@ -1,5 +1,17 @@
 #!/usr/bin/python
 
+
+'''
+
+Requirements:
+
+python 2.7
+pip install scapy
+Give python high privileges (scapy requires root privileges):
+sudo setcap cap_net_raw=eip /usr/bin/python2.7
+
+'''
+
 import subprocess
 from time import sleep
 import paho.mqtt.publish as publish
