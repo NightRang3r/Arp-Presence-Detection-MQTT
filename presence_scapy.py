@@ -15,7 +15,7 @@ MQTT_HOST = "127.0.0.1"
 MQQT_USER = "mosquitto"
 MQTT_PASS = "12345678"
 MQTT_TOPIC = "presence"
-T_SLEEP = 10
+T_SLEEP = 60
 IP_RANGE = "10.0.0.1/24"
 DEVICES= {"Bob": "00:00:00:00:00:00", "Alice":"01:01:01:01:01:01"}
 
